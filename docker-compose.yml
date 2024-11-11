@@ -3,7 +3,7 @@ services:
   app:
     build: .
     ports:
-      - "8003:80"
+      - "8003:8003"
     volumes:
       - .:/app
     command: ["go", "run", "main.go"]
